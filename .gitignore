@@ -1,0 +1,7 @@
+target
+node_modules
+programs/quiz/*.toml
+Cargo.toml
+*.lock
+.env
+tests

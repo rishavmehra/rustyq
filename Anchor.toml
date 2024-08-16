@@ -1,0 +1,21 @@
+[toolchain]
+
+[features]
+seeds = false
+skip-lint = false
+
+[programs.devnet]
+quiz = "GbvSraKaTa6pWGthuengwYqxAyFiqoKYPZt6qdL64UfG"
+
+[programs.localnet]
+quiz = "GbvSraKaTa6pWGthuengwYqxAyFiqoKYPZt6qdL64UfG"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Devnet"
+wallet = "/home/rm/.config/solana/id.json"
+
+[scripts]
+deploy = "anchor deploy --provider.cluster devnet"
