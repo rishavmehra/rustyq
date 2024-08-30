@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+    background-image: radial-gradient(
+      circle farthest-side at 50% 100%,
+      rgb(231, 229, 229), /* light yellow */
+      rgba(255, 255, 255, 0.6) 36%, /* bright yellow */
+      rgba(245, 245, 245, 0.6) 55%, /* gold */
+      rgba(248, 248, 248, 0.4)); /* light goldenrod */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* example: override wallet button style */
+.wallet-adapter-button:not([disabled]):hover {
+  background-color: #707070;
+}
+
