@@ -39,17 +39,7 @@ export const HomeView: FC = ({ }) => {
         <div className="flex flex-col mt-2">
           <RequestAirdrop />
           <h4 className="md:w-full text-2xl text-slate-300 my-2">
-          {wallet &&
-          <div className="flex flex-row justify-center">
-              <div style={{ color: 'black' }}>
-              {(balance || 0).toLocaleString()}
-              </div>
 
-              <div className='text-slate-600 ml-2'>
-                SOL
-              </div>
-          </div>
-          }
           </h4>
         </div>
       </div>
