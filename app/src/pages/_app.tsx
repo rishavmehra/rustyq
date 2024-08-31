@@ -12,7 +12,7 @@ const App: FC<AppProps> = ({ Component, pageProps }) => {
     return (
         <>
           <Head>
-            <title>Solana Quiz</title>
+            <title>RustyQ</title>
           </Head>
 
           <ContextProvider>
