@@ -19,9 +19,9 @@ export const AppBar: React.FC = () => {
       <div className="navbar flex h-20 flex-row md:mb-2 shadow-lg bg-black text-neutral-content border-b border-zinc-600 bg-opacity-66">
         <div className="navbar-start align-items-center">
           <div className="hidden sm:inline w-22 h-22 md:p-2 ml-10">
-            <Link href="https://rustyq.vercel.app" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
+            <Link href="https://github.com/rishavmehra/rustyq" target="_blank" rel="noopener noreferrer" passHref className="text-secondary hover:text-white">
               <img src="/rustyq.png" alt="Solana Logo" width="40%" height="24" />
-              </Link>
+            </Link>
           </div>
         </div>
 
